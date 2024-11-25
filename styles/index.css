@@ -1,0 +1,338 @@
+#header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    font-size: 1rem;
+    color: rgb(85, 84, 84);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    top: 0;
+    z-index: 1;
+    
+
+}
+
+#headerRight{
+    display: flex;
+    gap: 20px;
+    margin-right: 40px;
+
+    
+}
+
+#headerLeft{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+    
+    
+}
+
+body, html{
+    margin: 0;
+    font-family:sans-serif;
+    background-color: rgb(244, 244, 247);
+    position: relative;
+}
+
+#aboutDiv{
+
+    padding-top: 176px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(85, 84, 84);
+ 
+}
+
+#name{
+    
+    margin: 0;
+    font-size: 5rem;
+}
+
+#description{
+
+    padding-top: 10px;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#linksDiv{
+
+    padding-top: 60px;
+    display: flex;
+    gap: 100px;
+   
+   
+}
+
+.socialLinks{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    cursor: pointer;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    text-decoration: none;
+   
+    
+}
+
+.socialLinks:hover{
+
+    transform: scale(1.2);
+ 
+}
+
+#projectsDiv{
+    
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+#projectsTitle{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3.3rem;
+}
+
+#allProjects{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 275px); 
+    width: 100%;
+    justify-content: center;
+    gap: 50px 80px;
+    
+
+
+    
+
+}
+
+.projectCard{
+
+    height: 225px;
+    background-color: rgb(244, 244, 247);
+    border: 2px solid rgb(189, 189, 189);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+  
+  
+}
+
+.projectCard:hover{
+
+    transform: scale(1.1);
+   
+}
+
+h1, h3, h2{
+    margin: 0;
+}
+
+
+
+a{
+    cursor: pointer;
+}
+
+a:hover{
+
+    color: rgb(38, 38, 38);
+}
+
+#experienceTitle{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3.3rem;
+}
+
+#allExperience{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 75%;
+
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 39px;
+
+}
+
+#experienceDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.experienceContent{
+
+    padding-top: 10px;
+    
+}
+
+.experience{
+
+   
+    width: 97%;
+    margin-top: 30px;
+}
+
+.topRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    font-size: 1.2rem;
+    
+}
+
+#yourNameHereDiv{
+
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.linebreak{
+
+    height: 2px;
+    background-color: rgb(231, 219, 219);
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.pagebreak{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#aboutMeDiv{
+    margin-top: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 125px;
+   
+    background-color: white;
+}
+
+#abouttitle{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3.3rem;
+}
+
+#meDescriptionDiv{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+#aboutDescription{
+    
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+#skillsTitle{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3.3rem;
+    margin-bottom: 100px;
+}
+
+#skillsDiv{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+ 
+ 
+}
+
+.skills{
+    width: 95%;
+   
+  
+}
+
+.skillsTitle{
+    
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+  
+}
+
+.skillImgDiv{
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, 100px);
+    margin-top: 15px;
+    margin-bottom: 100px;
+    gap: 20px 20px;
+ 
+
+
+}
+
+.skillsImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    
+}
+
+.skillsImg:hover{
+
+    transform: scale(1.2);
+ 
+}
+
+#aboutDiv, #skillsDiv, #projectsDiv, #experienceDiv {
+    scroll-margin-top: 100px; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+    
+}
