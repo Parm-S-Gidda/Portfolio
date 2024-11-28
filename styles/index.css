@@ -150,7 +150,17 @@ body, html{
  
 }
 
+.projectCard:focus .flip-card-inner{
+
+    transform: scale(1.5) rotateY(180deg);
+ 
+}
+
 .projectCard:hover{
+    z-index: 2;
+}
+
+.projectCard:focus{
     z-index: 2;
 }
 
@@ -458,7 +468,13 @@ a {
    .topRow{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
    
+   }
+
+   .experienceContent{
+    text-align: center;
    }
 
    .projectCard:hover .flip-card-inner{
@@ -467,6 +483,10 @@ a {
  
 }
 
+    #yourNameHereDiv{
+        text-align: center;
+    }
+
    #linksDiv{
 
     padding-top: 60px;
@@ -474,5 +494,9 @@ a {
     gap: 50px;
    
    
-}
+    }
+
+    #name, #description{
+        text-align: center;
+    }
   }
