@@ -500,3 +500,29 @@ a {
         text-align: center;
     }
   }
+
+  #cathy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(195, 25, 25);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border: 5px solid rgb(17, 100, 17);
+  }
+
+  #cathyFront{
+    background-color: rgb(195, 25, 25);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border: 5px solid rgb(17, 100, 17);
+  }
+
+  #cathyButton{
+
+    padding: 10px 20px;
+    background-color: rgb(17, 100, 17);
+    color: white;
+    font-weight: 900;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+  }
